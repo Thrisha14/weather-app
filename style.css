@@ -1,0 +1,69 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(back.jpg);
+}
+
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-image: url(WEA.jpg);
+    border-radius: 10px;
+    margin-top: 80px;
+    
+}
+
+h1{
+    font-size: 45px;
+    color: wheat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    margin-top: 15px;
+}
+
+input[type= "text"]{
+    width: 70%;
+    padding: 10px;
+    margin-top: 0px;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    background-color: cornsilk;
+    text-align: center;
+    height: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="button"]{
+    background-color: 	#AA336A;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 23px;
+    text-shadow: #ccc;
+    border-radius: 5px;
+    border-color: 	#AA336A;
+    font-family: 'Times New Roman', Times, serif;
+    border-width: 3px;
+    font: bold;
+    width: 100px;
+    padding: 3px;
+    color: white;
+    
+}
+
+h2{
+    color:navy;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+
+h3{
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  margin-bottom: 20px;
+}
+
+
+

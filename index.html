@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+        <h1>Weather App</h1>
+        <input type="text"  id="city-name" placeholder="Search City">
+        <br/>
+        <input type="Button" onclick="searchCity()" value="Search" style="size: 50px;">
+        </div>
+        <div class="result">
+            <h2 id="city-input">------</h2>
+            <div>
+                <h2 id="weather-type" style="text-decoration: wavy;"> --------</h2>
+                <div>
+                    <h3>Temp:<span id="temp"></span><span>°F</span></h3>
+                    <h3>Min Temp:<span id="mintemp"></span>°F</h3>
+                    <h3>Max Temp:<span id="maxtemp"></span>°F</h3>
+                    
+                </div>
+
+            </div>
+           
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
+
+
